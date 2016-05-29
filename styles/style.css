@@ -33,8 +33,6 @@ position: relative;
 margin: 0px;
 }
 
-
-
 .web-dev {
   z-index: 9;
   width: 100%;
@@ -44,6 +42,7 @@ margin: 0px;
   position: relative;
   top: -1vw;
 }
+
 .web-text {
   /*color: #00BAF7;*/
   color: #00BAF7;
@@ -55,7 +54,6 @@ margin: 0px;
   z-index: 9;
   width: 30%;
   /*padding-bottom: 25px;*/
-
 }
 
 .headshot-container {
@@ -114,9 +112,33 @@ bottom: 50px;
 
 .portfolio-container {
   position: relative;
-  top: 28vw;
+  top: 45vw;
   /*border-top: 3px solid white;*/
-  background: white;
+  background: black;
   width: 100vw;
 
+}
+
+.hh {
+display: flex;
+justify-content: space-around;
+padding: 5%;
+}
+
+.hh-title {
+font-size: 3vw;
+}
+
+.hh-content {
+  width: 45%;
+  color: #00BAF7;
+}
+
+.hh-content {
+  font-size: 1.5vw;
+}
+
+.happy-hour-pic {
+  width: 40vw;
+  float: right;
 }
