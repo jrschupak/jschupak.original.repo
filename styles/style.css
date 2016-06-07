@@ -116,13 +116,48 @@ bottom: 50px;
   /*border-top: 3px solid white;*/
   background: black;
   width: 100vw;
+}
 
+.about-container{
+  color: #00BAF7;
+  padding: 5%;
+  padding-top: 9%;
+}
+.about-content {
+  font-size: 1.5vw;
+}
+
+.about-title {
+  font-size: 3vw;
+  margin: 0px;
+  text-align: center;
+  margin-bottom: 3vw;
+}
+
+.skills {
+  text-align: center;
+  /*background: white;*/
+}
+
+.skills-title {
+  font-size: 3vw;
+  margin: 0px;
+  margin-top: 5vw;
+  text-align: center;
+  margin-bottom: 3vw;
+  color: #00BAF7;
+}
+
+.skills-icon {
+  height: 150px;
+  padding: 5px;
 }
 
 .hh {
 display: flex;
 justify-content: space-around;
 padding: 5%;
+margin-top: 10vw;
 }
 
 .hh-title {
@@ -132,13 +167,17 @@ font-size: 3vw;
 .hh-content {
   width: 45%;
   color: #00BAF7;
-}
-
-.hh-content {
   font-size: 1.5vw;
 }
+
+
 
 .happy-hour-pic {
   width: 40vw;
   float: right;
+}
+
+.footer-content {
+  text-align: center;
+  color: #00BAF7;
 }
