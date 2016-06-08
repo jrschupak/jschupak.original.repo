@@ -134,7 +134,7 @@ bottom: 50px;
   padding-top: 9%;
 }
 .about-content {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .about-title {
@@ -198,7 +198,7 @@ text-align: center;
 
 @media (max-width: 1500px){
   .happy-hour-pic {
-    width: 100%;
+    width: 925px;
     text-align: center;
   }
 }
