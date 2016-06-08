@@ -196,7 +196,7 @@ text-align: center;
   }
 }
 
-@media (max-width: 1500px){
+/*@media (max-width: 1500px){
   .happy-hour-pic {
     width: 925px;
     text-align: center;
@@ -208,7 +208,7 @@ text-align: center;
     width: 100%;
     text-align: center;
   }
-}
+}*/
 
 .happy-hour-pic {
   width: 750px;
