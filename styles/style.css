@@ -170,20 +170,48 @@ padding: 5%;
 margin-top: 10vw;
 }
 
+
+
 .hh-title {
 font-size: 60px;
+}
+
+@media (max-width: 1500px){
+  .hh {
+display: block;
+text-align: center;
+
+  }
 }
 
 .hh-content {
   width: 45%;
   color: #00BAF7;
-  font-size: 1.5vw;
+  font-size: 25px;
 }
 
+@media (max-width: 1500px){
+  .hh-content {
+    width: 100%;
+  }
+}
 
+@media (max-width: 1500px){
+  .happy-hour-pic {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1500px){
+  .hh-pics {
+    width: 100%;
+    text-align: center;
+  }
+}
 
 .happy-hour-pic {
-  width: 40vw;
+  width: 750px;
   float: right;
 }
 
