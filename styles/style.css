@@ -88,7 +88,7 @@ bottom: 50px;
 }
 
 .github:hover {
-  transform: scale(2);
+  transform: scale(1.75);
 }
 
 .linkedin {
@@ -100,7 +100,7 @@ bottom: 50px;
 }
 
 .linkedin:hover {
-  transform: scale(2);
+  transform: scale(1.75);
 }
 
 .email {
@@ -110,7 +110,7 @@ bottom: 50px;
 }
 
 .email:hover {
-  transform: scale(2);
+  transform: scale(1.75);
 
 }
 
