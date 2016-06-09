@@ -85,21 +85,33 @@ bottom: 50px;
   height: 40px;
   border-radius: 50%;
   z-index: 9;
-
 }
+
+.github:hover {
+  transform: scale(2);
+}
+
 .linkedin {
   height: 50px;
   border-radius: 50%;
   z-index: 9;
   position: relative;
   bottom: 5px;
+}
 
+.linkedin:hover {
+  transform: scale(2);
 }
 
 .email {
   height: 40px;
   border-radius: 50%;
   z-index: 9;
+}
+
+.email:hover {
+  transform: scale(2);
+  
 }
 
 .contact-info {
@@ -163,6 +175,10 @@ bottom: 50px;
   padding: 5px;
 }
 
+.skills-icon:hover {
+transform: scale(1.75);
+}
+
 .hh {
 display: flex;
 justify-content: space-around;
@@ -215,6 +231,11 @@ text-align: center;
   width: 700px;
   float: right;
 }
+.happy-hour-pic:hover {
+  transform: scale(1.2);
+}
+
+
 
 .footer-content {
   text-align: center;
