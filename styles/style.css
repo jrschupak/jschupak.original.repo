@@ -1,5 +1,6 @@
 html {
-  background: rgba(0, 0, 0, 0.8);
+  /*background: rgba(0, 0, 0, 0.8);*/
+  background: white;
 }
 
 body {
@@ -22,7 +23,7 @@ body {
 }
 
 .myname {
-color: #00BAF7;
+color: #0773AD;
 /*color: lightgray;*/
 /*color: white;*/
 font-size: 75px;
@@ -31,7 +32,7 @@ justify-content: center;
 /*text-align: center;
 position: relative;*/
 /*bottom: 25px;*/
-/*border-bottom: 3px solid #00BAF7;*/
+/*border-bottom: 3px solid #0773AD;*/
 margin: 0px;
 }
 
@@ -46,11 +47,11 @@ margin: 0px;
 }
 
 .web-text {
-  /*color: #00BAF7;*/
-  color: #00BAF7;
+  /*color: #0773AD;*/
+  color: #0773AD;
   /*color: lightgray;*/
   font-size: 32px;
-  border-bottom: 3px solid #00BAF7;
+  border-bottom: 3px solid #0773AD;
   /*border-bottom: 3px solid lightgray;*/
   text-align: center;
   z-index: 9;
@@ -120,7 +121,7 @@ bottom: 50px;
   justify-content: center;
   /*position: relative;*/
   /*left: 37.5%;*/
-  color: #00BAF7;
+  color: #0773AD;
   font-size: 27px;
 }
 
@@ -136,12 +137,12 @@ bottom: 50px;
   position: relative;
   top: 45vw;
   /*border-top: 3px solid white;*/
-  background: black;
+  background: white;
   width: 100vw;
 }
 
 .about-container{
-  color: #00BAF7;
+  color: #0773AD;
   padding: 5%;
   padding-top: 9%;
 }
@@ -167,7 +168,7 @@ bottom: 50px;
   margin-top: 5vw;
   text-align: center;
   margin-bottom: 3vw;
-  color: #00BAF7;
+  color: #0773AD;
 }
 
 .skills-icon {
@@ -203,7 +204,7 @@ text-align: center;
 
 .hh-content {
   width: 45%;
-  color: #00BAF7;
+  color: #0773AD;
   font-size: 25px;
 }
 
@@ -239,5 +240,5 @@ text-align: center;
 
 .footer-content {
   text-align: center;
-  color: #00BAF7;
+  color: #0773AD;
 }
