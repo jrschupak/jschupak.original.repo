@@ -39,6 +39,14 @@ position: relative;*/
 margin: 0px;
 }
 
+@media(max-width: 625px) {
+  .myname {
+    text-align: center;
+  }
+}
+
+
+
 .web-dev {
   z-index: 9;
   width: 100%;
