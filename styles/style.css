@@ -142,6 +142,12 @@ bottom: 50px;
   font-size: 27px;
 }
 
+@media (max-width: 570px) {
+  .contact-info {
+    text-align: center;
+  }
+}
+
 .e-mail {
   padding-right: 10px;
 }
