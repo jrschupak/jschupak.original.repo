@@ -157,12 +157,12 @@ bottom: 50px;
   padding-left: 10px;
 }
 
-@media (max-width: 500px) {
+/*@media (max-width: 500px) {
   .phone {
     position: relative;
     bottom: 100px;
   }
-}
+}*/
 
 .portfolio-container {
   position: relative;
