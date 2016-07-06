@@ -52,7 +52,7 @@ justify-content: center;
 /* bottom: 25px; */
 /* border-bottom: 3px solid #003366; */
 margin: 0px;
-font-weight: 100;
+font-weight: bold;
 }
 
 @media(max-width: 625px) {
