@@ -35,7 +35,7 @@ body {
 
 .myname {
   position: absolute;
-  top: 70px;
+  top: 195px;
   width: 100%;
 }
 
@@ -67,7 +67,7 @@ font-weight: 100;
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 0px;
+  top: 125px;
 }
 
 .web-text {
@@ -109,7 +109,7 @@ bottom: 50px;
   text-align: center;
   width: 100%;
   position: absolute;
-  top: 130px;
+  top: 255px;
 
 }
 
