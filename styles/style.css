@@ -18,7 +18,8 @@ body {
 .fa {
   color: white;
   transform: scale(2);
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .bg-img {
