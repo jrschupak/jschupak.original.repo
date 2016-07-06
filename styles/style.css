@@ -1,8 +1,8 @@
 html {
   /*background: rgba(0, 0, 0, 0.8);*/
   background: white;
-  /*font-family: "Lato", sans-serif;*/
-  font-family: "Inconsolata";
+  font-family: "Lato", sans-serif;
+
 }
 
 body {
@@ -15,7 +15,8 @@ body {
 }
 
 .bg-img {
-  width: 100%;
+  width: auto;
+
   position: absolute;
 
   -webkit-filter: blur(0px);
@@ -273,4 +274,6 @@ text-align: center;
 .footer-content {
   text-align: center;
   color: #003366;
+  position: absolute;
+  bottom: 0px;
 }
