@@ -52,7 +52,7 @@ justify-content: center;
 /* bottom: 25px; */
 /* border-bottom: 3px solid #003366; */
 margin: 0px;
-font-weight: bold;
+font-weight: 100;
 }
 
 @media(max-width: 625px) {
@@ -84,6 +84,7 @@ font-weight: bold;
   width: 100%;
   margin: 0px;
   /*padding-bottom: 25px;*/
+  font-weight: 100;
 }
 
 @media (max-width: 625px) {
