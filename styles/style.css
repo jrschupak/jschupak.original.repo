@@ -4,11 +4,25 @@ html {
   background: #404040;
   font-family: "Lato";
   /*background-image: url(images/background1.jpeg);
-  background-size: cover;*/
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;*/
 }
 
 body {
   margin: 0px;
+}
+
+.nav-bar {
+  font-size: 12.5px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  color: white;
+  padding: 10px;
+  font-size: 12.5px;
 }
 
 .main {
@@ -200,11 +214,15 @@ bottom: 50px;
 }
 
 .about-container{
+  position: absolute;
+  top: 125px;
   color: white;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .about-title {
-  font-size: 55px;
+  font-size: 30px;
   margin: 0px;
   text-align: center;
   margin-bottom: 3vw;
