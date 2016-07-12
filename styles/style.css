@@ -17,6 +17,13 @@ body {
   font-size: 12.5px;
 }
 
+ul {
+  position: fixed;
+  right: 150px;
+  top: 25px;
+
+}
+
 li {
   list-style: none;
   display: inline-block;
