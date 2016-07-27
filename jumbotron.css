@@ -9,9 +9,10 @@ body {
   font-family: "Lato";
   /*background-color: #404040;*/
   background-image: url("static/images/dark-background.jpg");
-  background-position: top;
-  background-repeat: none;
-  background-size: 150%;
+  background-position: center;
+  /*background-repeat: none;*/
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 ul {
