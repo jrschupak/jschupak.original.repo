@@ -1,18 +1,19 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 
 html {
-
-}
-body {
-  padding-top: 50px;
-  padding-bottom: 20px;
-  font-family: "Lato";
-  /*background-color: #404040;*/
   background-image: url("static/images/dark-background.jpg");
   background-position: center;
   /*background-repeat: none;*/
   background-attachment: fixed;
   background-size: cover;
+}
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: "Lato";
+  /*background-color: #404040;*/
+  background: none;
 }
 
 ul {
