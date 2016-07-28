@@ -49,6 +49,13 @@ li {
     background: #9d9d9d;
   }
 }
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-nav>li>a  {
+    border: 1px solid black;
+  }
+}
+
+
 
 .navbar-collapse {
   color: white;
