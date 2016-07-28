@@ -35,6 +35,25 @@ li {
   color: white;
 }
 
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #9d9d9d;
+  background: white;
+}
+
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-nav {
+    background: #9d9d9d;
+  }
+}
+
+.navbar-collapse {
+  color: white;
+}
+
 a {
   color: white;
 }
