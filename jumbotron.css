@@ -51,7 +51,7 @@ li {
 }
 @media (max-width: 767px) {
   .navbar-inverse .navbar-nav>li>a  {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
   }
 }
 
