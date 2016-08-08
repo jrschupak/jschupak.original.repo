@@ -29,14 +29,15 @@ li {
 }
 
 .navbar {
-  /*background-color: #404040;*/
+  background-color: rgba(0,0,0,0.6);
   border: none;
-  background: none;
+  /*background: none;*/
   color: white;
 }
 
 .navbar-inverse .navbar-nav>li>a {
   color: white;
+  border-radius: 5px;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
@@ -96,6 +97,15 @@ medium {
 
 .container {
   /*background-color: #404040;*/
+}
+
+.jmhf-site {
+  display: inherit;
+  float: left;
+}
+
+.jmhf-site>.text-center>h3 {
+  vertical-align: center;
 }
 
 .motivation {
