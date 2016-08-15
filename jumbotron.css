@@ -104,21 +104,27 @@ a {
   color: white;
 }
 
+
+.home-page-content {
+  position: relative;
+  top: 100px;
+}
 .home-page-content>p {
   margin: 0px;
   font-size: 40px;
   line-height: 1.4;
   font-weight: bold;
-  position: relative;
-  top: 100px;
 }
 .home-page-content>h4 {
   margin: 0px;
-
   line-height: 1.4;
+}
 
-  position: relative;
-  top: 100px;
+@media (max-width: 420px){
+  .home-page-content {
+    position: relative;
+    top: 50px;
+  }
 }
 h4 {
   margin: 0px;
