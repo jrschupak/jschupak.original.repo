@@ -94,6 +94,10 @@ li {
   .brand-title {
     display: none;
   }
+  .brand-container {
+  position: relative;
+  right: 20px;
+  }
 }
 
 a {
@@ -236,7 +240,7 @@ img {
 footer {
   /*position: absolute;
   bottom: 0px;*/
-  color: white;
+  color: black;
 }
 
 .form {
