@@ -28,7 +28,9 @@ li {
   /*background: #A9A9A9;*/
 }
 
-
+.nav-container {
+  margin: 0px;
+}
 .navbar {
   /*background-color: rgba(0,0,0,0.6);*/
   background-color: #2098d1;
@@ -65,16 +67,54 @@ li {
   }
 }
 
+.navbar-inverse .navbar-toggle {
+  border: none;
+}
 .navbar-collapse {
   color: white;
+}
+
+.brand-container {
+  width: 200px;
+}
+.brand {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 2px;
+  margin: 0px;
+}
+
+.brand-title {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+@media (max-width: 420px){
+  .brand-title {
+    display: none;
+  }
 }
 
 a {
   color: white;
 }
 
-h3 {
+.home-page-content>p {
   margin: 0px;
+  font-size: 40px;
+  line-height: 1.4;
+  font-weight: bold;
+  position: relative;
+  top: 100px;
+}
+.home-page-content>h4 {
+  margin: 0px;
+
+  line-height: 1.4;
+
+  position: relative;
+  top: 100px;
 }
 h4 {
   margin: 0px;
@@ -115,7 +155,7 @@ medium {
 }
 
 .headshot {
-  width: 100%;
+  width: 175px;
   border: 1px solid black;
   padding-left: 7px;
 }
