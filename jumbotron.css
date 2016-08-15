@@ -1,7 +1,7 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 
 html {
-  background-image: url("static/images/dark-background.jpg");
+  /*background-image: url("static/images/dark-background.jpg");*/
   background-position: center;
   /*background-repeat: none;*/
   background-attachment: fixed;
@@ -28,11 +28,20 @@ li {
   /*background: #A9A9A9;*/
 }
 
+
 .navbar {
-  background-color: rgba(0,0,0,0.6);
+  /*background-color: rgba(0,0,0,0.6);*/
+  background-color: #2098d1;
   border: none;
   /*background: none;*/
   color: white;
+  padding: 10px;
+  position: absolute;
+  top: 0px;
+}
+
+#navbar {
+  margin-top: 20px;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -56,8 +65,6 @@ li {
   }
 }
 
-
-
 .navbar-collapse {
   color: white;
 }
@@ -66,6 +73,9 @@ a {
   color: white;
 }
 
+h3 {
+  margin: 0px;
+}
 h4 {
   margin: 0px;
   padding: 10px;
@@ -88,15 +98,26 @@ medium {
 }
 
 .jumbotron {
-  /*background: #404040;*/
-  background: none;
+  background: #2098d1;
+  /*background: none;*/
   color: white;
-  position: relative;
-  top: 75px;
+  height: 250px;
 }
 
 .container {
   /*background-color: #404040;*/
+  /*background-color: blue;*/
+}
+
+.about {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.headshot {
+  width: 100%;
+  border: 1px solid black;
+  padding-left: 7px;
 }
 
 .jmhf-site {
@@ -123,7 +144,7 @@ img {
   display: inline;
 }
 
-.AGexample {
+.AGexample,.motivation,.happyHour {
   display: inherit;
   float: left;
 }
@@ -139,32 +160,42 @@ img {
   display: inherit;
 }
 
+.projects {
+  margin-top: 100px;
+}
+
 .project {
   margin-top: 50px;
   margin-bottom: 50px;
-
 }
 
 
 .title {
   color: white;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
+  font-weight: lighter;
+}
+
+.title>p {
+  letter-spacing: 1.5px;
 }
 
 footer {
-  position: absolute;
-  bottom: 0px;
+  /*position: absolute;
+  bottom: 0px;*/
   color: white;
 }
 
 .form {
   position: relative;
   top: 75px;
+  color: black;
 }
 
 input {
   width: 200px;
   color: black;
+  border: 1px solid gray;
 }
 
 textarea {
@@ -173,7 +204,10 @@ textarea {
 
 .submit {
   width: 75px;
-  color: black;
+  background-color: #2098d1;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
 }
 
 .footer-container {
