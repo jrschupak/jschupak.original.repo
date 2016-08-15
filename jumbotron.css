@@ -120,6 +120,19 @@ medium {
   padding-left: 7px;
 }
 
+.skills {
+  padding-top: 20px;
+  /*margin-left: -30px;*/
+  /*position: relative;*/
+  /*left: 25px;*/
+}
+
+.skills-content {
+  position: relative;
+  left: 15px;
+
+}
+
 .jmhf-site {
   display: inherit;
   float: left;
