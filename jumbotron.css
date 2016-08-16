@@ -42,13 +42,16 @@ li {
   top: 0px;
 }
 
+
 #navbar {
   margin-top: 20px;
 }
 
-#navbar>ul {
-  position: absolute;
-  right: 100px;
+@media (min-width: 1000px) {
+  #navbar>ul {
+    position: absolute;
+    right: 100px;
+  }
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -79,10 +82,14 @@ li {
   color: white;
 }
 
+/*.nav .navbar-nav .navbar-right {
+  width: 100%;
+}*/
+
 .brand-container {
   width: 200px;
   position: absolute;
-  left: 50px;
+  left: 10px;
 }
 .brand {
   font-size: 20px;
@@ -126,12 +133,12 @@ a {
   line-height: 1.4;
 }
 
-@media (max-width: 420px){
+/*@media (max-width: 420px){
   .home-page-content {
     position: relative;
     top: 50px;
   }
-}
+}*/
 h4 {
   margin: 0px;
   padding: 10px;
