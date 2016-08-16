@@ -9,8 +9,8 @@ html {
 }
 
 body {
-  padding-top: 50px;
-  padding-bottom: 20px;
+  /*padding-top: 50px;
+  padding-bottom: 20px;*/
   font-family: "Lato";
   /*background-color: #404040;*/
   background: none;
@@ -81,6 +81,8 @@ li {
 
 .brand-container {
   width: 200px;
+  position: absolute;
+  left: 50px;
 }
 .brand {
   font-size: 20px;
@@ -101,7 +103,7 @@ li {
   }
   .brand-container {
   position: absolute;
-  right: 50px;
+  right: 20px;
   }
 }
 
@@ -109,8 +111,7 @@ a {
   color: white;
 }
 
-
-.home-page-content {
+.main {
   position: relative;
   top: 50px;
 }
@@ -198,23 +199,28 @@ medium {
 }
 
 .motivation {
-  width: 600px;
+  /*width: 50%;*/
   display: inherit;
 }
 
 img {
-  width: 600px;
-  margin-bottom: 15px;
+  width: 50%;
+}
+
+@media (max-width: 800px){
+  img {
+    width: 100%;
+  }
 }
 
 .happyHour {
-  width: 600px;
+  /*width: 50%;*/
   display: inline;
 }
 
 .AGexample,.motivation,.happyHour {
-  display: inherit;
-  float: left;
+  /*display: inherit;
+  float: left;*/
 }
 
 .project > medium {
@@ -233,8 +239,8 @@ img {
 }
 
 .project {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  /*margin-top: 50px;*/
+  /*margin-bottom: 50px;*/
 }
 
 
@@ -242,16 +248,25 @@ img {
   color: white;
   margin-bottom: 200px;
   font-weight: lighter;
+  background: #2098d1;
+  position: relative;
+  bottom: 70px;
 }
 
 .title>p {
   letter-spacing: 1.5px;
 }
 
+#title {
+  font-size: 40px;
+}
+
 footer {
   /*position: absolute;
   bottom: 0px;*/
-  color: black;
+  color: white;
+  background: #222;
+  padding: 20px;
 }
 
 .form {
@@ -281,4 +296,5 @@ textarea {
 .footer-container {
   position: relative;
   top: 150px;
+  background: #222;
 }

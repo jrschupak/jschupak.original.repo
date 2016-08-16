@@ -41,14 +41,36 @@
 
     .jumbotron {
       height: 400px;
+      margin: 0px;
+    }
+
+    .jumbotron>.container {
+      position: relative;
+      top: 270px;
+      background-color: #2098d1;
+    }
+
+    .container {
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+    }
+
+    .row {
+      margin: 0px;
+      padding: 0px;
     }
 
     .project {
-      color: black;
+      background-color: black;
     }
 
     img {
-      border: 1px solid black;
+      padding: 0px;
+    }
+
+    .col-sm-6 {
+      padding: 0px;
     }
   </style>
   <body>
@@ -81,53 +103,45 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
+        <div class="title text-center">
+          <p id="title">Front-End Development</p>
+          <p>HTML5 • CSS3 • Bootstrap • Responsive • JavaScript • Handlebars • React.js</p>
+        </div>
         <div class="projects">
-          <div class="title text-center">
-            <h2>Front-End Development</h2>
-            <p>HTML5 • CSS3 • Bootstrap • Responsive • JavaScript • Handlebars • React.js</p>
-          </div>
+
           <div class="row project jmhf-site">
-            <a href="http://www.jmhealthfitness.com"><img src="static/images/jmhealthfitness.png" alt="" class="AGexample img-responsive"></a>
+            <a  href="http://www.jmhealthfitness.com"><img class="col-sm-6" src="static/images/jmhealthfitness.png" alt="" class="AGexample img-responsive"></a>
+            <a  href="/motivation"><img class="col-sm-6" src="static/images/motivation.png" alt="" class="motivation img-responsive"></a>
             <div class="col-lg-5 text-center">
-              <h3>JMHealthFitness Personal Training Website</h3>
-            </div>
-          </div>
-          <div class="row project 1">
-            <a href="/motivation"><img src="static/images/motivation.png" alt="" class="motivation img-responsive"></a>
-            <div class="col-lg-5">
-              <medium>Understanding how important it is to be in the right mindest, I built this site with HTML5, CSS3, and JavaScript. The site is used as a way to get the right juices flowing so you can have the most efficient and positive day possible</medium>
+              <!-- <h3>JMHealthFitness Personal Training Website</h3> -->
             </div>
           </div>
           <div class="row project 2">
-            <a href="/360example"><img src="static/images/360AGproposal.png" alt="" class="AGexample img-responsive"></a>
+            <a href="/360example"><img class="col-sm-6" src="static/images/360AGproposal.png" alt="" class="AGexample img-responsive"></a>
+            <a href="http://happy-hour-jon.herokuapp.com"><img class="col-sm-6" src="static/images/happyHour.png" alt="" class="happyHour img-responsive"></a>
             <div class="col-lg-5">
-              <medium>This is a proposal site I built for a local restaurant using the Bootstrap framework so it would be mobile friendly. Includes HTML5, CSS3</medium>
+              <!-- <medium>Understanding how important it is to be in the right mindest, I built this site with HTML5, CSS3, and JavaScript. The site is used as a way to get the right juices flowing so you can have the most efficient and positive day possible </medium> -->
             </div>
-
           </div>
-          <div class="row project 3 ">
-            <a href="http://happy-hour-jon.herokuapp.com"><img src="static/images/happyHour.png" alt="" class="happyHour img-responsive"></a>
-            <div class="col-lg-5">
-              <medium>Having been the Happy Hour coordinator while taking the Web Development immersive course, I felt that for a final project, using HTML5, CSS3, React.js, and Foursquare API, I would make a happy hour finder based on current location or a specific zipcode.</medium>
-            </div>
 
-          </div>
+
 
           <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
         </div>
 
       </div>
+      <footer>
+        <p>&copy; 2016 Jonathan Schupak.</p>
+      </footer>
     </div>
 
-    <div class="container">
+    <div >
       <!-- <div class="footer-container">
 
       </div> -->
 
     </div> <!-- /container -->
-    <footer>
-      <p>&copy; 2016 Jonathan Schupak.</p>
-    </footer>
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
