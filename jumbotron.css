@@ -46,6 +46,11 @@ li {
   margin-top: 20px;
 }
 
+#navbar>ul {
+  position: absolute;
+  right: 100px;
+}
+
 .navbar-inverse .navbar-nav>li>a {
   color: white;
   border-radius: 5px;
@@ -95,8 +100,8 @@ li {
     display: none;
   }
   .brand-container {
-  position: relative;
-  right: 20px;
+  position: absolute;
+  right: 50px;
   }
 }
 
@@ -107,7 +112,7 @@ a {
 
 .home-page-content {
   position: relative;
-  top: 100px;
+  top: 50px;
 }
 .home-page-content>p {
   margin: 0px;
@@ -151,7 +156,7 @@ medium {
   background: #2098d1;
   /*background: none;*/
   color: white;
-  height: 250px;
+  height: 225px;
 }
 
 .container {
