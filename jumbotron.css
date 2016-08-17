@@ -110,7 +110,7 @@ li {
   }
   .brand-container {
   position: absolute;
-  right: 20px;
+  right: 10px;
   }
 }
 
@@ -131,12 +131,14 @@ a {
 
 @media (max-width: 410px) {
   .home-page-content>p {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 .home-page-content>h4 {
   margin: 0px;
-  line-height: 1.4;
+  /*line-height: 1.4;*/
+  position: relative;
+  bottom: 10px;
 }
 
 /*@media (max-width: 420px){
