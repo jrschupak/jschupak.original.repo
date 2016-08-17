@@ -41,18 +41,50 @@
   </head>
   <title>Jonathan Schupak</title>
   <style>
+
+    .headshot {
+      width: 150px;
+      height: auto;
+      border: 1px solid black;
+      /*padding-left: 7px;*/
+    }
+    @media only screen and (min-width: 481px) {
+      .headshot {
+    float: left;
+    margin-right: 1.4em;
+      }
+    }
+
+    /*@media (max-width: 1000px) {
+      .headshot {
+        width: 125px;
+      }
+    }*/
     .skills-content {
       padding-bottom: 50px;
     }
 
     .list {
-      position: relative;
-      left: 20px;
+
+    }
+
+    @media (max-width: 500px) {
+      .list {
+        position: relative;
+        left: 0px;
+      }
     }
 
     .skills>h2 {
-      position: relative;
-      left: 50px;
+      /*position: relative;
+      left: 50px;*/
+    }
+
+    @media (max-width: 500px) {
+      /*.skills>h2 {
+        position: relative;
+        left: 15px;
+      }*/
     }
 
     .jumbotron>.container {
@@ -109,43 +141,47 @@
 
       </div>
     </div>
-    <div class="container about">
-      <!-- <h2>About</h2> -->
-      <div class="col-lg-2 col-lg-offset-2">
-      <img class="headshot" src="static/images/headshot-min.png" alt="">
-      </div>
-      <div class="col-lg-6 text-left">
-          <medium>
-            I am a Web Developer who looks to provide a source of power and value for a growth oriented company.  Being ambitious, I crave rapid growth and realized that I needed to go into the entrepreneur and tech world.
-            Having built a start-up and realizing I needed more development skills, I tried my hand at HTML and CSS and I couldn't get enough of watching a website develop and build with every piece of code I added.
-            I wanted more, so I signed up for General Assembly's Web Development Immersive offering me the tools I need to build a         fully functioning website and application.
-          </medium>
-          <br><br>
-          <medium>
-            I decided to focus on front-end development because it is the part that combines design and backend, is the layer that users see and interact with giving the user their experience, which I believe is the most vital part.
-          </medium>
-      </div>
+    <div class="wrapper-about col-sm-12">
+      <div class="container about col-sm-8 col-sm-offset-2">
+        <!-- <h2>About</h2> -->
+        <div class="col-sm-3 ">
+        <img class="headshot" src="static/images/headshot-min.png" alt="">
+        </div>
+        <div class="col-sm-9 text-left">
+            <medium>
+              I am a Web Developer who looks to provide a source of power and value for a growth oriented company.  Being ambitious, I crave rapid growth and realized that I needed to go into the entrepreneur and tech world.
+              Having built a start-up and realizing I needed more development skills, I tried my hand at HTML and CSS and I couldn't get enough of watching a website develop and build with every piece of code I added.
+              I wanted more, so I signed up for General Assembly's Web Development Immersive offering me the tools I need to build a         fully functioning website and application.
+            </medium>
+            <br><br>
+            <medium>
+              I decided to focus on front-end development because it is the part that combines design and backend, is the layer that users see and interact with giving the user their experience, which I believe is the most vital part.
+            </medium>
+        </div>
 
-    </div>
-    <div class="skills">
-      <h2 class="col-lg-2 col-lg-offset-2">SKILLS</h2>
-    </div>
-    <div class="col-lg-8 col-lg-offset-2 text-left skills-content">
-      <medium class="col-lg-3 list text-left">
+      </div>
+      <div class="col-sm-8 col-sm-offset-2 skills">
+        <h2 class="col-sm-2">SKILLS</h2>
+      </div>
+      <div class="col-sm-8 col-sm-offset-2  text-left skills-content">
+        <medium class="col-sm-3 list text-left">
+          <br>
+            • HTML5 <br>
+            • CSS3 <br>
+            • Responsive Design <br>
+            • Bootstrap <br>
+            • JavaScript <br>
+            • Handlebars <br>
+            • React.js <br>
+        </medium>
         <br>
-          • HTML5 <br>
-          • CSS3 <br>
-          • Responsive Design <br>
-          • Bootstrap <br>
-          • JavaScript <br>
-          • Handlebars <br>
-          • React.js <br>
-      </medium>
-      <medium class="col-lg-9 text-left">
-        <br>
-        With these front-end skills I am able to build high quality, attractive looking, responsive, mobile friendly websites and applications. Incorporating JavaScript to make the site or app interactive and give the user a better experience. If this is a website or app on the large side of the scale, React.js will be able to support it and run it at optimal performance.
-      </medium>
+        <medium class="col-sm-9">
+
+          With these front-end skills I am able to build high quality, attractive looking, responsive, mobile friendly websites and applications. Incorporating JavaScript to make the site or app interactive and give the user a better experience. If this is a website or app on the large side of the scale, React.js will be able to support it and run it at optimal performance.
+        </medium>
+      </div>
     </div>
+
     <div class="container">
 
     </div>

@@ -190,24 +190,19 @@ medium {
   text-align: center;
 }
 
-.headshot {
-  width: 175px;
-  border: 1px solid black;
-  padding-left: 7px;
-}
+
 
 .skills {
-  padding-top: 20px;
+  /*padding-top: 20px;*/
   /*margin-left: -30px;*/
   /*position: relative;*/
   /*left: 25px;*/
 }
 
-.skills-content {
+/*.skills-content {
   position: relative;
   left: 15px;
-
-}
+}*/
 
 .jmhf-site {
   display: inherit;
