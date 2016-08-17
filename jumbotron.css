@@ -114,7 +114,7 @@ li {
 @media (max-width: 420px){
   .brand {
     position: relative;
-    right: 20px;
+    right: 40px;
     font-size: 15px;
   }
 }
