@@ -28,6 +28,15 @@ li {
   /*background: #A9A9A9;*/
 }
 
+#contact {
+  background: navy;
+  border-radius: 5px;
+}
+#contact:hover {
+  background: white;
+  border-radius: 5px;
+}
+
 .nav-container {
   margin: 0px;
 }
@@ -57,11 +66,13 @@ li {
 .navbar-inverse .navbar-nav>li>a {
   color: white;
   border-radius: 5px;
+
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
   color: #9d9d9d;
   background: white;
+  border: 3px solid white;
 }
 
 @media (max-width: 767px) {
