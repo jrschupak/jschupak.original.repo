@@ -107,6 +107,7 @@ li {
 @media (max-width: 420px){
   .brand-title {
     display: none;
+    float: left;
   }
   .brand-container {
   position: absolute;
