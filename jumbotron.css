@@ -46,7 +46,7 @@ li {
   border: none;
   /*background: none;*/
   color: white;
-  padding: 10px;
+  padding: 35px;
   position: absolute;
   top: 0px;
 }
@@ -142,6 +142,7 @@ a {
   font-size: 43px;
   line-height: 1.4;
   font-weight: bold;
+  color: white;
 }
 
 @media (max-width: 410px) {
@@ -154,6 +155,7 @@ a {
   /*line-height: 1.4;*/
   position: relative;
   bottom: 10px;
+  color: white;
 }
 
 /*@media (max-width: 420px){
@@ -183,7 +185,7 @@ medium {
   color: white;
 }
 
-.jumbotron {
+.outside-wrapper {
   background: #2098d1;
   /*background: none;*/
   color: white;
@@ -260,7 +262,7 @@ img {
 }
 
 .projects {
-  margin-top: 100px;
+  margin-top: 89px;
 }
 
 .project {
@@ -270,12 +272,12 @@ img {
 
 
 .title {
-  color: white;
-  margin-bottom: 200px;
-  font-weight: lighter;
-  background: #2098d1;
-  position: relative;
-  bottom: 70px;
+     color: white;
+    font-weight: lighter;
+    background: #2098d1;
+    position: relative;
+    top: 90px;
+    padding: 114px;
 }
 
 .title>p {
@@ -323,3 +325,161 @@ textarea {
   top: 150px;
   background: #222;
 }
+
+
+
+/*About page*/
+
+.headshot {
+      width: 150px;
+      height: auto;
+      border: 1px solid #e1e1e1;
+      border-radius: 3px;
+      /*padding-left: 7px;*/
+    }
+    @media only screen and (min-width: 481px) {
+      .headshot {
+    float: left;
+    margin-right: 1.4em;
+      }
+    }
+
+    /*@media (max-width: 1000px) {
+      .headshot {
+        width: 125px;
+      }
+    }*/
+    .skills-content {
+      padding-bottom: 50px;
+    }
+
+    .wrapper-about {
+      margin-bottom: 80px;
+    }
+
+    @media (max-width: 500px) {
+      .list {
+        position: relative;
+        left: 0px;
+      }
+    }
+
+    .skills>h2 {
+      /*position: relative;
+      left: 50px;*/
+    }
+
+    @media (max-width: 500px) {
+      /*.skills>h2 {
+        position: relative;
+        left: 15px;
+      }*/
+    }
+
+    .outside-wrapper-about>.container {
+      position: relative;
+      top: 60px;
+
+    }
+
+    .outside-wrapper-about {
+      margin-bottom: 80px;
+      padding: 70px;
+      background: #2098d1;
+    }
+  
+
+
+
+
+
+
+
+
+
+
+/*Projects*/
+
+.body-projects {
+      background-color: white;
+}
+
+.outside-wrapper-projects {
+      height: 400px;
+      margin: 0px;
+}
+
+.outside-wrapper-projects>.container {
+      position: relative;
+      top: 270px;
+      background-color: #2098d1;
+}
+
+.container-projects {
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+}
+
+.row-project {
+      margin: 0px;
+      padding: 0px;
+}
+
+.project {
+      background-color: black;
+}
+
+.div-overlay:hover {
+      background: rgba(255, 255, 255, 0.2);
+}
+
+.img-project {
+      padding: 0px;
+}
+
+.img-project:hover {
+      opacity: 0.2;
+}
+
+.col-sm-6 {
+      padding: 0px;
+}
+
+footer>p {
+      transform: scale(.6);
+      position: relative;
+      right: 250px;
+
+}
+
+
+/*Contact page*/
+
+
+    .outside-wrapper-contact {
+      height: 150px;
+    }
+
+
+    .outside-wrapper-contact>h2 {
+      text-align: center;
+      width: 100%;
+      background: #2098d1;
+      padding-top: 100px;
+      padding-bottom: 44px;
+      position: relative;
+      top: 70px;
+      color: white;
+    }
+
+    .outside-wrapper-contact>.container {
+      margin-top: 50px;
+    }
+
+    .footer-contact {
+      position: relative;
+      top: 700px;
+    }
+
+  
