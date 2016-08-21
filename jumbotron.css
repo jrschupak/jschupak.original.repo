@@ -72,7 +72,6 @@ li {
 .navbar-inverse .navbar-nav>li>a:hover {
   color: #9d9d9d;
   background: white;
-  border: 3px solid white;
 }
 
 @media (max-width: 767px) {
