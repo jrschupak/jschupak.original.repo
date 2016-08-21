@@ -29,7 +29,7 @@ li {
 }
 
 #contact {
-  background: navy;
+  /*background: navy;*/
   border-radius: 5px;
 }
 #contact:hover {
