@@ -446,12 +446,10 @@ textarea {
       padding: 0px;
 }
 
-footer>p {
-      transform: scale(.6);
-      position: relative;
-      right: 250px;
-
-}
+/*.footer-projects {
+  position: relative;
+  top: 250px;
+}*/
 
 
 /*Contact page*/
